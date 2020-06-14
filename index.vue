@@ -33,7 +33,7 @@ export default {
     navigator.geolocation.watchPosition(pos => {
       this.userLocation = {
         lat: pos.coords.latitude,
-        lng: pos.coords.longitude0
+        lng: pos.coords.longitude
       }
       //元の文
     //navigator.geolocation.getCurrentPosition(pos => {
